@@ -12,7 +12,7 @@ return array
 function whileLoop(n){
   while(n>0){
     console.log(n--)
-    console.log(n+' now')
+   // console.log(n+' now')
   }
   return 'done'
 }
