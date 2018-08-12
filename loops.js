@@ -23,7 +23,7 @@ function incrementVariable() {
   i = i + 1
 }
 do {
-  array.shift()
+  array=array.slice(1)
   incrementVariable()
 } while (array.length>0 )
 return array
