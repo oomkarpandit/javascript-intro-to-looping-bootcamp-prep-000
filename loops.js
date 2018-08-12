@@ -25,6 +25,6 @@ function incrementVariable() {
 do {
   array.pop()
   incrementVariable()
-} while (i<array.length)
+} while (array.length>0 )
 return array
 }
